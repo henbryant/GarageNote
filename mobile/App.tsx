@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import { RootNavigator } from './src/app/navigation/RootNavigator';
 import { bootstrapApp } from './src/app/bootstrap';
@@ -12,7 +11,6 @@ export default function App() {
   return (
     <>
       <RootNavigator />
-      <StatusBar style="auto" />
     </>
   );
 }
